@@ -1,0 +1,50 @@
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+.redtext{
+    color:red;
+}
+
+table
+{
+    table-layout: fixed;
+    word-wrap:break-word;
+}
+
+
+.gridrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+/* Create two equal columns that sits next to each other */
+.gridcolumn {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.gridcolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
